@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica con Formularios</title>
+  </head>
+  <body>
+    <h1>Formulario de Registro</h1>
+    <hr>
+    <h3><p>Por favor Registrate</p></h3>
+    <form  action="nuevo.html" method="post">
+      <input type="text" name="Nombre" placeholder="Nombre" required>
+      <br>
+      <input type="text" name="Apellidos" placeholder="Apellidos" required>
+      <br>
+      <input type="text" name="Sexo" placeholder="Sexo" required>
+      <br>
+      <input type="email" name="Email" placeholder="Email" required>
+      <br>
+      <label for="tel">Telefono:</label>
+      <input type="tel" name="Telefono" placeholder="55-55-55-55-55"required>
+      <br>
+      <label for="Fecha">Fecha de Nacimiento</label>
+      <input type="date" name="Fecha" required>
+      <br>
+      <label for="password">Digita tu password</label>
+      <input type="password" name="password" required>
+      <br>
+      <label for="url">Coloca la url de sitio web</label>
+      <input type="url" name="url" required>
+      <br>
+      <label for="archivo">Sube tu archivo</label>
+      <input type="file" name="archivo" required >
+      <br>
+      <label for="numero">Numero de Integrantes</label>
+      <input type="number" name="numero" required>
+      <br>
+      <label for="comentarios"></label>
+      <textarea name="comentarios" rows="8" cols="80" placeholder="Coloca tus Comentarios" required></textarea>
+      <br>
+      <input type="submit" name="enviar" value="enviar">
+      <input type="reset" name="borrar" value="Borrar">
+    </form>
+  </body>
+</html>
